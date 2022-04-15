@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0px;
+    margin-bottom: 30px;
 }
 
 header{
@@ -34,18 +34,17 @@ p, li {
     color: #717171;
 }
 
-a:link {
-    color: #8B6220;
-    text-decoration: none;
+a:link, a:visited {
+    color: #000000;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #720E07;
 }
 
 .column {
     flex: 33.33%;
-    height: 500px;
+    height: 800px;
     width: 300px;
     padding: 20px;
     text-align: left;
