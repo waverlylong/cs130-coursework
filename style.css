@@ -5,17 +5,74 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
 }
-header, section {
-    padding: 20px;
+
+header{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
 }
+
+section {
+    padding: 10px;  
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 p, li {
     line-height: 1.5em;
+    font-size: 16px;
+    font-family: 'Libre Baserville', serif;
+    color: #717171;
+}
+
+a:link {
+    color: #8B6220;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.column {
+    flex: 33.33%;
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+hr {
+    width: 50%;
+}
+
+#tutorials {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+#homework {
+    background-color: #e6e6e6; 
+    padding: 10px;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #e6e6e6;
+    padding: 10px;
 }
